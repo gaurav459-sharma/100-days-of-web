@@ -1,0 +1,23 @@
+html{
+    font-size: 2rem;
+}
+
+div{
+    height: 10rem;
+    width: 10rem;
+    background-color: rgba(57, 0, 246, 0.9);
+    
+}
+.cclass{
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(201, 133, 133);
+    border: 2px solid red;
+    border-radius: 90px;
+}
+#sample-para{
+    border-left: 3px solid red;
+    border-bottom-left-radius: 13px;
+    border-top-left-radius: 13px;
+   
+}
