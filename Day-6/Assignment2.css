@@ -1,0 +1,72 @@
+main{
+    width: 70%;
+    display: inline-block;
+}
+aside{
+    width: 21%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.aside-section{
+    margin-top: 3.5rem;
+    border-top: 4px solid black;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+.maincontent{
+   display: inline;
+}
+.form1 input{
+    display: block;
+    margin: 2px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+.submit{
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.aside-section h2{
+    border-top: 4px solid black;
+    margin-bottom: 5px;
+    padding-top: 15px;
+}
+#section2{
+    border-top: 5px solid black;
+    margin-top: 10px;
+}
+
+#section2 form {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+#section2 input{
+   
+        display: inline;
+        width: 80%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-bottom: 0;
+    
+    
+}
+#section2 button{
+    width: 12%;
+    height: 24.5px;
+    margin-left: -5px;
+    /* padding: 1px 0 1px; */
+    border-radius: 0 5px 5px 0;
+    line-height: 1.6;
+    
+     
+ }
+ #section2 img{
+    width: 18px;
+    vertical-align: middle
+ }
+ 
