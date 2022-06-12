@@ -1,0 +1,50 @@
+html{
+    font-size: 30px;
+}
+.outer-div{
+    border: 2px solid black;
+    margin: 20px;
+    position: relative;
+}
+#div1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+
+   
+
+}
+#div2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(222, 12, 57);
+    /* position: sticky; */
+    left: 40px;
+    top: 20px;
+
+}
+#div3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(237, 223, 25);
+    box-sizing: border-box;
+    border: 2px solid forestgreen;
+    padding: 4px;
+    /* margin: 4px; */
+
+}
+#div4{
+    height: 200px;
+    width: 200px;
+    border: 2px solid forestgreen;
+box-sizing: border-box;
+
+
+}
+#div5{
+    height: 200px;
+    width: 200px;
+    border: 2px solid forestgreen;
+    padding: 40px;
+box-sizing: border-box;
+}
