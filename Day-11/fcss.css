@@ -1,0 +1,274 @@
+main{
+    width: 70%;
+    display: inline-block;
+}
+aside{
+    width: 21%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.aside-section{
+    margin-top: 3.5rem;
+    border-top: 4px solid black;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+.maincontent{
+   display: inline;
+}
+.form1 input{
+    display: block;
+    margin: 2px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+.submit{
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.aside-section h2{
+    
+    margin-bottom: 5px;
+    padding-top: 15px;
+}
+#section2{
+    border-top: 5px solid black;
+    margin-top: 10px;
+}
+
+#section2 form {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+#section2 input{
+   
+        display: inline;
+        width: 80%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-bottom: 0;
+    
+    
+}
+#section2 button{
+    width: 12%;
+    height: 24.5px;
+    margin-left: -5px;
+    /* padding: 1px 0 1px; */
+    border-radius: 0 5px 5px 0;
+    line-height: 1.6;
+    cursor: pointer;
+    
+     
+ }
+ #section2 img{
+    width: 18px;
+    vertical-align: middle
+ }
+
+ #section3 ul li a{
+text-decoration: none;
+color: orange;
+ }
+ #section4 ul li a{
+text-decoration: none;
+color: orange;
+ }
+ 
+ #section5 ul li a{
+text-decoration: none;
+color: orange;
+ }
+
+ /* author details */
+article{
+    display: inline-block;
+    width: 70%;
+}
+
+ #author-container{
+     display: inline-block;
+     width: 20%;
+     margin-bottom: 30px;
+     vertical-align: top;
+     font-family: sans-serif;
+     font-size: 1rem;
+     margin-left: 20px;
+     
+
+ }
+ #author-img{
+    max-width: 60px; 
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    vertical-align: middle;
+ }
+ #author-name{
+    display: block;
+    margin-bottom: 1rem;
+ }
+ #author-container .slash {
+    display: none;
+}
+
+#author-container a {
+    color: #3c5349;
+    text-decoration: none;
+}
+
+#author-container a:hover {
+    color: #dc6520;
+    text-decoration: underline;
+}
+#views {
+    margin-bottom: 3px;
+}
+
+#views img {
+    margin-left: 2px;
+    width: 18px;
+    margin-bottom: -2px;
+}
+
+#views span {
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.author-container{
+    display: ;
+}
+.header-div{
+    display: inline-block;
+    width: 90%;
+}
+#logocn{
+    display: block;
+}
+.parent-div{
+    height: 240px;
+    width: 30px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    box-sizing: border-box;
+    /* position: fixed; */
+
+    
+}
+#fb{
+    height: 40px;
+    width: 30px;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    background-color: #3b5998;
+   
+
+}
+#fb a img{
+    height: 40px;
+    width: 30px;
+    padding-right: 10px;
+    margin: auto;
+          ;
+
+}
+#fb:hover{
+    background-color: #2d4373;
+}
+#ln{
+    height: 40px;
+    width: 30px;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    background-color: #ffffff  
+}
+#ln a img{
+    height: 40px;
+    width: 30px;
+    padding-right: 10px;
+    margin: auto;
+
+}
+#ln:hover{
+    background-color: #00121c;
+}
+#twitter{
+    height: 40px;
+    width: 30px;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    background-color: #3b5998  
+}
+#twitter a img{
+    height: 40px;
+    width: 30px;
+    padding-right: 10px;
+    margin: auto;
+
+}
+#twitter:hover{
+    background-color: #55acee;
+}
+#g{
+    height: 40px;
+    width: 30px;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    background-color: #de1241  
+}
+#g a img{
+    height: 40px;
+    width: 30px;
+    padding-right: 10px;
+    margin: auto;
+
+}
+#g:hover{
+    background-color: #cf3311;
+}
+#whatsapp{
+    height: 40px;
+    width: 30px;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    background-color: #6ba92f            
+}
+#whatsapp a img{
+    height: 40px;
+    width: 30px;
+    padding-right: 10px;
+    margin: auto;
+
+}
+#whatsapp:hover{
+    background-color: #528124;
+}
+#gmail{
+    height: 40px;
+    width: 30px;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    background-color: #eeeeee                      
+}
+#gmail a img{
+    height: 40px;
+    width: 30px;
+    padding-right: 10px;
+    margin: auto;
+
+}
+#gmail:hover{
+    background-color: #4f3632;
+}
+
+
+
+#hidden{
+
+visibility: hidden;
+}

@@ -1,0 +1,427 @@
+
+<!DOCTYPE html>
+
+
+<html>
+    
+<head>
+    <title> Five tips for front-end Development</title>
+    <link rel="stylesheet" href="fcss.css">
+</head>
+<body>
+
+
+    <header id="main-header">
+
+        <a id="logocn" href="http://blog.codingninjas.in/"><img id="logo" src="image/logo_switchtocode.png" alt="coding ninjas logo" /></a>
+        
+        <div class="parent-div">
+            <div id="fb">
+                <a href=""><img src="image/fb.png" alt=""></a>
+            </div>
+            <div id="ln">
+                <a href=""><img src="image/ln.png" alt=""></a>
+            </div>
+            <div id="twitter">
+                <a href=""><img src="image/twitter.png" alt=""></a>
+            </div>
+            <div id="g">
+                <a href=""><img src="image/g+.png" alt=""></a>
+            </div>
+            <div id="whatsapp">
+                <a href=""><img src="image/WhatsApp_icon.png" alt=""></a>
+            </div>
+            <div id="gmail">
+                <a href=""><img src="image/gmail.png" alt=""></a>
+            </div>
+        </div>
+        <div class="header-div">
+            <div>
+                <p id="site-title" ><a href="http://blog.codingninjas.in/">blog.codingninjas.in</a></p>
+                <p id="blog-desc" class="blogclass"> Coding Ninjas Official Blog</p>
+            </div>
+            <div>
+                <img src="image/coding_ninjas.png">
+            </div>
+        </div>
+    </header>
+
+
+    
+    <div class="maincontent">
+
+        <main>
+
+            <header>
+                <h1 id="blog-title" class="blogclass">A step-by-step walk through of your first HTML page</h1>
+            </header>
+            <div id="author-container">
+                <img id="author-img" src="image/author-pic.png" alt="author">
+                <span id="author-name"><a href="www.codingninjas.com">Gaurav Sharma</a></span>
+                <!-- <span>&ensp;&ensp;</span> -->
+                <span id="author-topic"><a href="www.codingninjas.com">Web Development</a></span>
+            </div>
+
+
+        
+            <article id="blog-content">
+                <div id="blog-image-container1">
+                    <div id="views">
+                        <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000012_1549316267_signal.png" alt="views">
+                        <span><b>Views:</b></span>
+                        <span><b>1,137</b></span>
+                    </div>
+                    <img style="width: 90%;" src="image/cd1.jpg">
+                </div>
+                <div class="p1">
+                <p>HTML is short for HyperText Markup Language.Basically, it’s the “code” behind every webpage – even this one. If you’re just beginning to learn HTML, let us tell you that it’s a fairly easy task. HTML, without styling, can’t do anything more than setting a layout, drawing a table, or creating frames – but it is handy as it helps you structure the content correctly, which is important when you sit down to add style to your HTML.</p>
+
+                </div>
+
+                <div id="blog-image-container2">
+                    <img style="width: 90%;" src="image/cd2.jpg">
+                </div>
+                <div class="p2">
+                    <p>However simple this might seem, it is a mighty useful tool when it comes to full-fledged web development. Various tools easily eliminate the HTML coding from your work process – but if you want to be in full control of your web-page, you’ll need to have some command over HTML.</p>
+
+                    <p>Through this article, we aim to give you the essential HTML building blocks that’ll help you get up and running. Reading this, you’ll be able to understand an HTML source code and even modify it for your own good!</p>
+
+                </div>
+
+                <section id="section1">
+                    <h2>Step One - TAGS</h2>
+                    <img src="image/cd3" alt="">
+                    <p>Tags are what you’ll see the most when you look at any HTML source code. A tag can ideally be seen as a wrapper to any item on your HTML document. Tags tell what magic is to be done on the content enclosed by them.</p>
+
+                    <p>Let’s look at two types of tags:</p>
+
+                    <ol>
+                        <li>&lt; tag-example-1 &gt; I need a closing tag &lt; tag-example-1 &gt;  </li>
+                        <li>&lt; tag-example-2 &gt; I don't need a closing tag </li>
+                    </ol>
+                    <p>In the first example, the sentence is wrapped by two tags. The first one is called the opening tag and the second one is called the closing tag. Everything in between is affected by the properties of the tag. Very commonly used examples of such tags are &lt;html&gt;, &lt;head&gt;, &lt;body&gt;, &lt;strong&gt;, etc.</p>
+
+                     <p>The second example tags about loner tags – as in, they don’t need a closing tag to function. Although it’s not required, these type of tags are often written as &lt;tag/&gt; to make the debugging of code easier. Common examples of such tags are &lt;hr/&gt; – used for horizontal line, &lt;br/&gt; – to break the line, etc.</p>
+               
+
+                </section>
+
+                <section id="section2">
+                    <h2>Step Two - HTML, HEAD, and BODY: The three pillars of your document</h2>
+                    <img style="width: 100%;" src="image/cd4.jpg" alt="">
+                    <p>These tags are essential for any HTML document. They parcel out the significant parts of your HTML code.</p>
+
+                        <ul>
+                            <li>&lt;BODY&gt; &lt;/BODY&gt; is placed below your &lt;HEAD&gt; tag, and everything that you want to be displayed on your screen comes under this tag. Text, images, links, and pretty much anything you can see in your browser live inside this tag.</li>
+                            <br />
+                            <li>&lt;HTML&gt; &lt;/HTML&gt; wraps your entire code. Everything else in your HTML document needs to come inside these tags.</li>
+                            <li>&lt;HEAD&gt; &lt;/HEAD&gt; includes things like title, styles, and scripts. Head is usually present at the top (hah!), just inside the &lt;/HTML&gt; tag.</li>
+                        </ul>
+                </section>
+
+                <section id="section3">
+                    <h2>Step three - A few tags that'll make your page pretty</h2>
+                    <p></p>
+                    <p>Some basic text formatting tags:</p>
+                    <ul>
+                        <li>&lt;b&gt;&lt;/b&gt; makes your text look <b>bold</b></li>
+                        <li>&lt;i&gt;&lt;/i&gt; makes you write in <i>cursive</i></li>
+                        <li>&lt;u&gt;&lt;/u&gt; <u>underline</u> what you just wrote</li>
+                        
+                    </ul>
+                    <p>For example, this piece of code</p>
+                    <hr/>
+                    <code>&lt;html&gt;</code>
+                    <br> <br>
+                    <code>&ensp; &lt;head&gt; &lt;/head&gt;</code>
+                    <br /><br />
+                        <code>&ensp; &lt;body&gt;</code>
+                        <br /><br />
+                        <code>&ensp; &ensp; &lt;i&gt; I am italics! &lt;/i&gt; &lt;br/&gt;</code>
+                        <br />
+                        <code>&ensp; &ensp; &lt;b&gt; I am bold! &lt;/b&gt; &lt;br/&gt;</code>
+                        <br />
+                        <code>&ensp; &ensp; &lt;u&gt; And me, well, I'm underlined! &lt;/u&gt; &lt;br/&gt;</code>
+                        <br /><br />
+                        <code>&ensp; &lt;/body&gt;</code>
+                        <br /><br />
+                        <code>&lt;/html&gt;</code>
+                        <hr/>
+
+                    
+                </section>
+
+                <section id="section4">
+                    <p>Should produce something like this on your browser: Don’t fret too much about the &lt;br/&gt;. It’s just for breaking the line so that you can start from the next line. Enter key does little when it comes to changing lines in your HTML document.</p>
+
+                    <img style="width: 100%; height: 100px;" src="image/cd5.png" alt="">
+                    <i>I am Italics</i> <br>
+                    <b>I am bold</b> <br>
+                    <u>And me? Well I'm underlined</u>
+
+                    <p id="hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit distinctio quam tempora optio maiores, laborum doloribus sit veritatis modi nesciunt pariatur vel. Beatae saepe quis aliquam, sint ratione pariatur expedita voluptatum culpa atque quas ullam sapiente iste fugit fugiat voluptatem magnam veniam minus fuga excepturi doloremque facere debitis odit! Corrupti nemo blanditiis natus excepturi dolorem deleniti veritatis adipisci assumenda dolores officiis facere omnis voluptatum nesciunt possimus, aperiam et. Cupiditate?</p>
+
+
+                       
+                </section>
+
+                <section id="section5">
+                    <h3>Tags to help you structure your content</h3>
+                    <ul>
+                        <li>&lt;br/&gt; breaks the line, making you continue to the next line</li>
+                        <li>&lt;br/&gt; stands for paragraph, It divides your content into paragraphs</li>
+
+                    </ul>
+                    <p>Note: You need to use these tags as space and enter keys do very little whenit comes to formatting content inside a HTML document</p>
+
+                    <h3>Headings Tags:</h3>
+                    <p>HTML provides you with six tags, from &lt;H1&gt;&lt;/H1&gt; to &lt;H6&gt;&lt;/H6&gt; to help you create different sized headers quickly.</p>
+                    
+                    <h1>&lt;h1&gt; Heading 1 &lt;/h1&gt;</h1>
+                    <h2>&lt;h2&gt; Heading 2 &lt;/h2&gt;</h2>
+                    <h3>&lt;h3&gt; Heading 3 &lt;/h3&gt;</h3>
+                    <h4>&lt;h4&gt; Heading 4 &lt;/h4&gt;</h4>
+                    <h5>&lt;h5&gt; Heading 5 &lt;/h5&gt;</h5>
+                    <h6>&lt;h6&gt; Heading 6 &lt;/h6&gt;</h6>
+
+                    
+
+
+
+
+                </section>
+
+                <section id="section6">
+                    <h4>Inseting an image</h4>
+
+                    <p>All that’s good, but what fun without images on the webpage? Don’t worry, &lt;IMG/&gt; to the rescue! The image tag has a mandatory attribute called “source”. Basically, it tells the browser where it should look for the image. The syntax goes something like:</p>
+
+                    <p><i>&lt; img src = “path_to_your_image” /&gt; </i></p>
+
+                    <p>Furthermore, it also has attributes like height and width that let you specify the height and width you want your image to take.</p>
+
+               
+                </section>
+
+                <section id="section7">
+                    <h4>Lists:</h4>
+                    <p>HTML has two types of lists – ordered and unordered. Each item of your list has to be enclosed in a tag. The syntax for creating a list is fairly simple.</p>
+
+                    <p>Suppose you want to create a list like: </p>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+
+                    <p>The following code will easily do the job for you:</p>
+
+                            <hr />
+                            <code>&lt;ul&gt;</code>
+                            <br />
+                            <code>&ensp; &lt;li&gt;</code>
+                            <code>Item 1</code>
+                            <code>&lt;/li&gt;</code>
+                            <br />
+                            <code>&ensp; &lt;li&gt;</code>
+                            <code>Item 2</code>
+                            <code>&lt;/li&gt;</code>
+                            <br />
+                            <code>&ensp; &lt;li&gt;</code>
+                            <code>Item 3</code>
+                            <code>&lt;/li&gt;</code>
+                            <br />
+                            <code>&lt;/ul&gt;</code>
+                            <hr />
+
+                            <br />
+                            <br />
+
+                            <p>This, by the way, was an example of an unordered list. For an ordered list, all you need to do is replace &lt;ul&gt; with &lt;ol&gt; and &lt;/ul&gt; with &lt;/ol&gt;.</p>
+
+                            <p>Let’s see what the following code does: </p>
+
+                            <hr/>
+
+                            <code>&lt;html&gt;</code>
+                            <br /><br />
+                            <code>&ensp; &lt;head&gt; &lt;/head&gt;</code>
+                            <br /><br />
+                            <code>&ensp; &lt;body&gt;</code>
+                            <br /><br />
+                            <code>&ensp; &ensp; &lt;ul&gt;</code>
+                            <br />
+                            <code>&ensp; &ensp; &ensp; &lt;li&gt; I am unordered list's item 1! &lt;/li&gt;</code>
+                            <br />
+                            <code>&ensp; &ensp; &ensp; &lt;li&gt; I am unordered list's item 2! &lt;/li&gt;</code>
+                            <br />
+                            <code>&ensp; &ensp; &ensp; &lt;li&gt; I am unordered list's item 3! &lt;/li&gt;</code>
+                            <br />
+                            <code>&ensp; &ensp; &ensp; &lt;li&gt; I am unordered list's item 4! &lt;/li&gt;</code>
+                            <br />
+                            <code>&ensp; &ensp; &lt;/ul&gt;</code>
+                            <br />
+                            <code>&ensp; &ensp; &lt;ol&gt;</code>
+                            <br />
+                            <code>&ensp; &ensp; &ensp; &lt;li&gt; I am ordered list's item 1! &lt;/li&gt;</code>
+                            <br />
+                            <code>&ensp; &ensp; &ensp; &lt;li&gt; I am ordered list's item 2! &lt;/li&gt;</code>
+                            <br />
+                            <code>&ensp; &ensp; &ensp; &lt;li&gt; I am ordered list's item 3! &lt;/li&gt;</code>
+                            <br />
+                            <code>&ensp; &ensp; &ensp; &lt;li&gt; I am ordered list's item 4! &lt;/li&gt;</code>
+                            <br />
+                            <code>&ensp; &ensp; &lt;/ol&gt;</code>
+                            <br /><br />
+                            <code>&ensp; &lt;/body&gt;</code>
+                            <br /><br />
+                            <code>&lt;/html&gt;</code>
+                            <hr />
+
+                            <br />
+                            <br />
+
+
+
+                </section>
+
+                <section id="section8">
+                    <img style="width: 100%; height: 100px;" src="image/cd5.png" alt="">
+                    <p>All of these tags, when arranged coherently, will provide you with a simple webpage consisting of images, headings, and lists. Further, there are various tags that HTML supports, and we thoroughly recommend you to check them out and play with them!</p>
+
+                </section>
+
+                <section id="section9">
+                    <h2>In Conclusion</h2>
+
+                    <p>You now know enough to skim through and understand any part of an HTML code. We request you to go ahead and try skimming through the source code of any website (you’ll find some tags you don’t know, but that’s how you learn!). Oh, and welcome to the world of web development. With HTML under your belt, your next stop should be making your page look beautiful using CSS.</p>
+
+                    <p>Let us know if you had any problems in the article, and don’t forget to have a look at a source code or two!</p>
+
+                </section>
+
+
+                
+
+               
+
+                    
+            </article>
+           
+           
+        </main>
+    </div>
+
+    <aside class="asidecontent">
+        
+        <section class="aside-section" id="section1">
+            <h2>SUBSCRIBE NOW TO STAY UPDATED WITH NEW TECHNOLOGY TRENDS</h2>
+            <form action="" class="form1">
+                <label for="Name">Name</label>
+                <input type="text" id="Name">
+                <label for="Email">Email*</label>
+                <input type="email" required>
+                <button class="submit">SUBCRIBE</button>
+            </form>
+        </section>
+       
+
+        <section class="aside-section" id="section2">
+            <form action="">
+                <input type="text" placeholder="Search..." />
+                <button type="submit"><img src="image/search-icon.png"></button>
+            </form>
+        </section>
+
+        <section class="aside-section" id="section3" >
+            <h3>RECENT POSTS</h3>
+            <ul>
+                <li>
+                    <a href="www.codingninjas.com"> A V Guiding path for a fresher to start their career in software programming/development</a>
+                </li>
+                <li>
+                    <a href="www.codingninjas.com"> The undisputed truth about emotional support animal rhode island that the experts don't want you to hear</a>
+                </li>
+                <li>
+                    <a href="www.codingninjas.com">The Best Plan to use for Emotional Support Animal Oregon</a>
+                </li>
+                <li>
+                    <a href="www.codingninjas.com"> How to find Emotional Support Animal Illiios Online</a>
+                </li>
+                <li>
+                    <a href="www.codingninjas.com">Career opportunities after mastering Python</a>
+                </li>
+                
+            </ul>
+        </section>
+        <section class="aside-section" id="section4" >
+            <h3>RECENT COMMENTS</h3>
+            <ul>
+                <li>
+                    <a href="www.codingninjas.com">A V Yogesh Rao</a>
+                    <span>on</span>
+                    <a href="">Get ready for the ultimate summer scholarship test!</a>
+                </li>
+                <li>
+                    <a href="www.codingninjas.com">Strony Internetowe</a>
+                    <span>on</span>
+                    <a href="">Recursion(The good, the bad and the not so ugly)</a>
+                </li>
+                <li>
+                    <a href="www.codingninjas.com">The Best Plan to use for Emotional Support Animal Oregon</a>
+                </li>
+                <li>
+                    <a href="www.codingninjas.com">Philip Herb</a>
+                    <span>on</span>
+                    <a href="">Recursion(The good, the bad and the not so ugly)</a>
+                </li>
+                <li>
+                    <a href="www.codingninjas.com">Pascher Vigra</a>
+                    <span>on</span>
+                    <a href="">Recursion(The good, the bad and the not so ugly)</a>
+                </li>
+                <li>
+                    <a href="">Ananya Burman</a>
+                    <span>on</span>
+                    <a href="">Code your way through Competitive programming!</a>
+                </li>
+                
+            </ul>
+        </section>
+        <section class="aside-section" id="section5" >
+            <h3>CATEGORIES</h3>
+            <ul>
+                <li>
+                    <a href="www.codingninjas.com">Android</a>
+                    
+                </li>
+                <li>
+                    <a href="www.codingninjas.com">General</a>
+                   
+                </li>
+                <li>
+                    <a href="www.codingninjas.com">Interview Experiences</a>
+                </li>
+                <li>
+                    <a href="www.codingninjas.com">Machine Learning</a>
+                   
+                </li>
+                <li>
+                    <a href="www.codingninjas.com">Ruby</a>
+                    
+                </li>
+                <li>
+                    <a href="">Uncategorized</a>
+                   
+                </li>
+                <li>
+                    <a href="">web Development</a>
+                </li>
+                
+            </ul>
+        </section>
+
+    </aside>
+
+</body>
+</html>
